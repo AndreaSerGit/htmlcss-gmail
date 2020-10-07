@@ -1,0 +1,80 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+}
+
+.contenitore{
+  width: 70%;
+  margin: auto;
+}
+
+/*header*/
+.titolo{
+  display: inline-block;
+  color: white;
+}
+#logo{
+  width: 150px;
+  height: : 150px;
+  vertical-align: middle;
+}
+hr{
+  background-color: white;
+}
+/*/header */
+
+/*nav */
+#pulsante{
+  border-radius: 10px;
+}
+.avviso{
+  color: white;
+  font-size: 25px;
+}
+#numero{
+  display: inline-block;
+  background-color: orange;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+/*/nav */
+
+/*main*/
+.linea{
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+.oggetto{
+  height: 22px;
+  display: inline-block;
+  width: 130px;
+}
+
+.corpo{
+  color: rgba(0, 0, 0, 0.5);
+  height: 22px;
+  display: inline-block;
+}
+.seconda{
+  background-color: white;
+}
+form{
+  display: inline-block;
+}
+/*/main*/
+
+/*footer */
+footer{
+  color: white;
+  text-align: center;
+}
+.sigla{
+  font-size: 25px;
+}
+/*/footer */
